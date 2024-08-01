@@ -4,8 +4,6 @@
 
 Projeto criado utilizando Context API e Hooks.
 
-![Demonstração](projectIntro.gif)
-
 ---
 
 ## Funcionalidades
