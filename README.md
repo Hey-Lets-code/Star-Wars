@@ -1,101 +1,84 @@
-# Descrição
+# Star Wars Planets Search
 
-Este projeto foi desenvolvido durante o período de Curso da Trybe 🚀
+## Descrição
 
-O projeto tem por objetivo a avaliação e prática dos conhecimentos adquiridos na Trybe, visando o cumprimento do requisitos solicitados pela mesma.
+Projeto criado utilizando Context API e Hooks.
 
-### *ATENÇÃO: Para utilizar a aplicação acesse o link no canto direito em "About"*.
-
-![img](projectIntro.gif)
+![Demonstração](projectIntro.gif)
 
 ---
 
-# Sumário
+## Funcionalidades
 
-- [Descrição](#descrição)
-- [Habilidades](#habilidades-requeridas)
-- [O que foi desenvolvido](#o-que-foi-desenvolvido)
-- [Tecnologias usadas](#tecnologias-usadas)
-- [ANTES DE INICIALIZAR A APLICAÇÃO](#antes-de-inicializar-a-aplicação)
-- [Linter](#linter)
-- [Desmontração de Uso](#desmontração-de-uso)
+- **Busca por Nome**: Permite buscar planetas pelo nome.
+- **Filtros**: Filtra planetas por diversas características.
+- **Ordenação**: Ordena planetas de forma ascendente ou descendente.
 
 ---
 
-## Habilidades requeridas
+## Tecnologias Utilizadas
 
-* Utilizar a _Context API_ do **React** para gerenciar estado.
-* Utilizar o _React Hook useState_;
-* Utilizar o _React Hook useContext_;
-* Utilizar o _React Hook useEffect_;
-* Criar _React Hooks_ customizados.
-
----
-
-## O que foi desenvolvido
-
-Foi implementado uma lista com filtros de planetas do universo de Star Wars usando **Context API e Hooks**, do React, para controlar os estados globais.
+- JavaScript
+- React
+- Context API
+- Hooks
+- CSS
 
 ---
 
-## Tecnologias usadas
+## Instalação e Execução
 
-- `javascript` , `jsx` , `React` , `ContextAPI` e `css`.
+Siga os passos abaixo para clonar e executar o projeto localmente:
+
+1. Clone o repositório:
+   ```bash
+   git clone git@github.com:seu-usuario/seu-repositorio.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd seu-repositorio
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie a aplicação:
+   ```bash
+   npm start
+   ```
+   A aplicação será aberta no seu navegador.
 
 ---
 
-## ANTES DE INICIALIZAR A APLICAÇÃO
+## Qualidade de Código
 
-1. Clone o repositório
-  * `git clone git@github.com:THIAGOMARTINS367/Trybe-project-starwars-planets-search.git`
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd Trybe-project-starwars-planets-search`
-
-2. Instale as dependências e inicialize o projeto
-  * Instale as dependências:
-    * `npm install`
-  * Inicialize o projeto:
-    * `npm start` (uma nova página deve abrir no seu navegador com a lista de planetas)
-    * ⚠️ Lembrando que já deve se estar dentro da pasta do projeto `Trybe-project-starwars-planets-search`
-
----
-
-## Linter
-
-Para garantir a qualidade do código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento foi utilizado neste projeto o linter `ESLint` e o `Stylelint`. Para rodar o linter localmente, execute o comando abaixo:
+Para garantir a qualidade do código, este projeto utiliza `ESLint` e `Stylelint`. Para rodar o linter, use os comandos abaixo:
 
 ```bash
 npm run lint
 npm run lint:styles
 ```
+
 ---
 
-## Desmontração de Uso
+## Demonstração de Uso
 
 ### Buscando pelo Nome do Planeta
-![img](demonstration-1.gif)
+![Buscando](demonstration-1.gif)
+
+### Filtrando pelo Valor da Coluna
+![Filtrando](demonstration-2.gif)
+
+### Usando Filtros em Conjunto
+![Filtros](demonstration-3.gif)
+
+### Testando Quantidade de Filtros Disponíveis
+![Quantidade de Filtros](demonstration-4.gif)
+
+### Removendo Filtros Ativos
+![Removendo Filtros](demonstration-5.gif)
+
+### Ordenando Colunas
+![Ordenando](demonstration-6.gif)
 
 ---
-
-### Filtrando pelo valor da coluna
-![img](demonstration-2.gif)
-
----
-
-### Usando filtros em conjuntos
-![img](demonstration-3.gif)
-
----
-
-### Testando quantidade de filtros disponíves
-![img](demonstration-4.gif)
-
----
-
-### Removendo filtros ativos
-![img](demonstration-5.gif)
-
----
-
-### Ordenando colunas de forma Ascendente e Descendente
-![img](demonstration-6.gif)
